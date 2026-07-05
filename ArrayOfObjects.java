@@ -33,11 +33,13 @@ public class ArrayOfObjects {
         arr[1]=s2;
         arr[2]=s3;
 
-        for(int i =0;i<arr.length;i++){
-            System.out.println(arr[i].name +" whose roll no is " + arr[i].rollNo+ " got " +arr[i].marks);
+        // for(int i =0;i<arr.length;i++){
+        //     System.out.println(arr[i].name +" whose roll no is " + arr[i].rollNo+ " got " +arr[i].marks);
+        // }
+
+        for(Student stud:arr){
+            System.out.println(stud.name +" whose roll no is " + stud.rollNo+ " got " +stud.marks);
         }
-
-
       
 
         
