@@ -7,7 +7,7 @@ class Mobile{
     private static int userId;
 
     public String getName() {
-        return name;
+        return name ;
     }
     public void setName(String name) {
         this.name = name;
