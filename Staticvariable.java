@@ -72,7 +72,7 @@ public class Staticvariable {
 
         System.out.println(set1.getName()+" "+set1.getMobileCount());
 
-        System.out.println(set1.getUserId()); //Getting the value from set1 
+        //System.out.println(set1.getUserId()); //Getting the value from set1 
         //System.out.println(Mobile.getUserId());
     }
 }

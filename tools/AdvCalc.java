@@ -1,3 +1,4 @@
+package tools;
 //Here We are inherit the property of calc class by using extend
 
 //Call is parent class advCalc is sub class
