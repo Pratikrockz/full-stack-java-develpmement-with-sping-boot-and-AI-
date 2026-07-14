@@ -2,6 +2,8 @@ package QuizGame;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("main");
+        QuestionService question = new QuestionService();
+        question.QuizGame();
+        question.CalculateScore();
     }
 }
